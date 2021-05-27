@@ -1,0 +1,89 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "coming soon",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "image_urls": [
+                "link1",
+                "link2",
+                "link3"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "coming soon",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "image_urls": [
+                "link1",
+                "link2",
+                "link3"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Random Quote Generator",
+            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "coming soon",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "image_urls": [
+                "link1",
+                "link2",
+                "link3"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Random Quote Generator",
+            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "coming soon",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "image_urls": [
+                "link1",
+                "link2",
+                "link3"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Random Quote Generator",
+            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "coming soon",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "image_urls": [
+                "link1",
+                "link2",
+                "link3"
+            ]
+        }
+    ]
+}
