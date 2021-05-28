@@ -1,23 +1,6 @@
 {
     "projects": [
         {
-            "id": 0,
-            "project_name": "Random Quote Generator",
-            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
-            "technologies": [
-                "JavaScript",
-                "CSS",
-                "HTML"
-            ],
-            "live_link": "coming soon",
-            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
-            "image_urls": [
-                "link1",
-                "link2",
-                "link3"
-            ]
-        },
-        {
             "id": 1,
             "project_name": "Random Quote Generator",
             "description": "My 1st project on the Full Stack JavaScript Techdegree.",
@@ -36,15 +19,15 @@
         },
         {
             "id": 2,
-            "project_name": "Random Quote Generator",
-            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "project_name": "Data pagination and filtering",
+            "description": "My 2nd project on the Full Stack JavaScript Techdegree: Data pagination and filtering.",
             "technologies": [
                 "JavaScript",
                 "CSS",
                 "HTML"
             ],
             "live_link": "coming soon",
-            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Data-pagination-and-filtering",
             "image_urls": [
                 "link1",
                 "link2",
@@ -53,15 +36,15 @@
         },
         {
             "id": 3,
-            "project_name": "Random Quote Generator",
-            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "project_name": "Interactive form",
+            "description": "My 3rd project on the Full Stack JavaScript Techdegree: Interactive form. In this project, JavaScript was used to enhance an interactive registration form for a fictional conference called 'FullStack Conf'.",
             "technologies": [
                 "JavaScript",
-                "CSS",
-                "HTML"
+                "HTML",
+                "CSS"
             ],
             "live_link": "coming soon",
-            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Interactive-form",
             "image_urls": [
                 "link1",
                 "link2",
@@ -70,15 +53,32 @@
         },
         {
             "id": 4,
-            "project_name": "Random Quote Generator",
-            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "project_name": "OOP Game-Show App",
+            "description": "My 4th project on the Full Stack JavaScript Techdegree: OOP Game Show App. A browser-based game, where JavaScript and OOP (Object-Oriented Programming) were used.",
             "technologies": [
                 "JavaScript",
                 "CSS",
                 "HTML"
             ],
             "live_link": "coming soon",
-            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Object-Oriented-Programming-Game-Show-App",
+            "image_urls": [
+                "link1",
+                "link2",
+                "link3"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Public API Requests",
+            "description": "My 5th project on the Full Stack JavaScript Techdegree: Public API Requests. This app makes AJAX requests to a public API and handles asynchronous data.",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "live_link": "coming soon",
+            "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Public-API-Requests",
             "image_urls": [
                 "link1",
                 "link2",
