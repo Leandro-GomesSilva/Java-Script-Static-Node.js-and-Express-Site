@@ -20,6 +20,7 @@ app.get('/about', (req, res) => {
 
 app.get('/project/:id', (req, res) => {
     const id = req.params.id;
+    console.log(`Routing to 'projects/${id}'.`)
     res.render('project', data.projects[id - 1]);
 });
 

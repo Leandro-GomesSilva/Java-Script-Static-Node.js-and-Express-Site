@@ -9,12 +9,12 @@
                 "CSS",
                 "HTML"
             ],
-            "live_link": "coming soon",
+            "live_link": "https://leandro-gomessilva.github.io/JavaScript-Random-quote-generator/",
             "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Random-quote-generator",
             "image_urls": [
-                "link1",
-                "link2",
-                "link3"
+                "static/images/project1-550.png",
+                "static/images/project1-1200-1.png",
+                "static/images/project1-1200-2.png"
             ]
         },
         {
@@ -26,12 +26,12 @@
                 "CSS",
                 "HTML"
             ],
-            "live_link": "coming soon",
+            "live_link": "https://leandro-gomessilva.github.io/JavaScript-Data-pagination-and-filtering/",
             "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Data-pagination-and-filtering",
             "image_urls": [
-                "link1",
-                "link2",
-                "link3"
+                "static/images/project2-550.png",
+                "static/images/project2-1200-1.png",
+                "static/images/project2-1200-2.png"
             ]
         },
         {
@@ -43,12 +43,12 @@
                 "HTML",
                 "CSS"
             ],
-            "live_link": "coming soon",
+            "live_link": "https://leandro-gomessilva.github.io/JavaScript-Interactive-form/",
             "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Interactive-form",
             "image_urls": [
-                "link1",
-                "link2",
-                "link3"
+                "static/images/project3-550.png",
+                "static/images/project3-1200-1.png",
+                "static/images/project3-1200-2.png"
             ]
         },
         {
@@ -60,12 +60,12 @@
                 "CSS",
                 "HTML"
             ],
-            "live_link": "coming soon",
+            "live_link": "https://leandro-gomessilva.github.io/JavaScript-Object-Oriented-Programming-Game-Show-App/",
             "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Object-Oriented-Programming-Game-Show-App",
             "image_urls": [
-                "link1",
-                "link2",
-                "link3"
+                "static/images/project4-550.png",
+                "static/images/project4-1200-1.png",
+                "static/images/project4-1200-2.png"
             ]
         },
         {
@@ -77,12 +77,12 @@
                 "CSS",
                 "HTML"
             ],
-            "live_link": "coming soon",
+            "live_link": "https://leandro-gomessilva.github.io/JavaScript-Public-API-Requests/",
             "github_link": "https://github.com/Leandro-GomesSilva/JavaScript-Public-API-Requests",
             "image_urls": [
-                "link1",
-                "link2",
-                "link3"
+                "static/images/project5-550.png",
+                "static/images/project5-1200-1.png",
+                "static/images/project5-1200-2.png"
             ]
         }
     ]
