@@ -14,7 +14,7 @@ app.set('view engine', 'pug');
 app.use( '/static', express.static('public') );
 
 
-/* Setting the main routes */
+/* Setting up the main routes */
 
     // Home route
 app.get('/', (req, res) => {  
@@ -34,7 +34,7 @@ app.use('/project', projectRouter);
 
 /* Error handlers */
 
-    // Handling 404 errors
+// Handling 404 errors
 app.use((req, res, next) => {
     const err = new Error("Page not found. The page you requested does not exist. Check details of the error on the screen. Click the link on the screen to return to the homepage.");
     err.status = 404;
@@ -42,7 +42,7 @@ app.use((req, res, next) => {
     next(err);
 });
 
-    // Global error handler
+// Global error handler
 app.use((err, req, res, next) => {
     
     if (err.status === 404) {
@@ -58,7 +58,7 @@ app.use((err, req, res, next) => {
 });
 
 
-/* Global error handler */
+/* Starting the server */
 
 app.listen(3000, ()=> {
     console.log("The web application is being executed on localhost:3000");
