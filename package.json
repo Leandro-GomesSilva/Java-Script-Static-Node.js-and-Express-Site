@@ -4,7 +4,8 @@
   "description": "My 6th project on the Full Stack JavaScript Techdegree: Static Node.js and Express Site.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Leandro-GomesSilva",
   "license": "ISC",

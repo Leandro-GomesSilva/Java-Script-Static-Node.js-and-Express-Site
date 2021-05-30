@@ -4,25 +4,20 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
     h1 Static Node.js and Express Site a.k.a. "My Portfolio"
 
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p This web application is a powerful server-side JavaScript application used to display a portfolio site, which showcases the projects I had built so far in my JavaScript Techdegree.
+    p This is a server-side JavaScript application built with Node.js / Express and concerns my fictional portfolio site, which showcases the projects I had built so far in my Full Stack JavaScript Techdegree. 
+      | This is not intended to be my real online portfolio (which will be built later from strach and whose link will be then shared in this session of this page), but just one more project in my portfolio and a way to show up my general back-end skills, specifically with Node.js and Express.
+      | I also took the oportunity in this project to practice my CSS skills. You find in the top right corner of the screen a toogle buttom that will switch back and forth between the original CSS layout and my own-made CSS layout.
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
+ 
       each project in projects
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
 
         .cell
           a(href=`/project/${project.id}`)
-            img.thumbnail(src=`${project.image_urls[0]}`, alt='123')
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`Thumbnail ${project.project_name}`)
             h5 #{project.project_name}
 
