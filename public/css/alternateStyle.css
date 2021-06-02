@@ -1,0 +1,11 @@
+.toogle-button {
+    background-color: #111;
+    color:#eaeaea;
+    border: none;
+    font-size: 1px;
+    font-family: 'Merriweather', serif;
+    padding: 111px;
+    flex-grow: 0;
+    align-self: center;
+    transition: 0.3s ease-in-out;
+  }
