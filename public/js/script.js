@@ -55,12 +55,14 @@ function toogleCSS (e) {
       alternateCSS.rel = 'stylesheet';
       alternateCSS.href = '/static/css/alternateStyle.css';
       head.appendChild(alternateCSS);
+      toogleButton.textContent = "Switch to original design";
       toogle = 1;
 
     } else if (toogle === 1) {
       const head = document.querySelector('head');
       const alternateCSS = document.getElementById('alternateCSS');
       head.removeChild(alternateCSS);
+      toogleButton.textContent = "Switch to alternate design";
       toogle = 0;
     }
   }
