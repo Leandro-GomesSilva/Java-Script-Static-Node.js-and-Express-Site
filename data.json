@@ -3,7 +3,7 @@
         {
             "id": 1,
             "project_name": "Random Quote Generator",
-            "description": "My 1st project on the Full Stack JavaScript Techdegree.",
+            "description": "The 1st project on the Full Stack JavaScript Techdegree. This application displays random famous quotes each time a button is clicked and after a predetermined amount of time. Following concepts were applied: Variables, Loops, Conditionals, Object literal, Random number, DOM manipulation, Time Events.",
             "technologies": [
                 "JavaScript",
                 "CSS",
@@ -20,7 +20,7 @@
         {
             "id": 2,
             "project_name": "Data pagination and filtering",
-            "description": "My 2nd project on the Full Stack JavaScript Techdegree: Data pagination and filtering.",
+            "description": " The 2nd project on the Full Stack JavaScript Techdegree. This application used the web development technique 'pagination' to enhance the usability of a web page. A list with a big number of elements was grouped in 9 elements and these can be displayed via navigation buttons. A search field was dynamically added, which manipulates the original list and the corresponding navigation buttons. Following concepts were applied: Pagination, Event Object, Event listeners, DOM manipulation, HTML elements.",
             "technologies": [
                 "JavaScript",
                 "CSS",
@@ -37,7 +37,7 @@
         {
             "id": 3,
             "project_name": "Interactive form",
-            "description": "My 3rd project on the Full Stack JavaScript Techdegree: Interactive form. In this project, JavaScript was used to enhance an interactive registration form for a fictional conference called 'FullStack Conf'.",
+            "description": "The 3rd project on the Full Stack JavaScript Techdegree. In this application, JavaScript was used to enhance an interactive registration form for a fictional conference. The application applies conditional behaviour to various input fields, validates user input and provides the corresponding visual indication in real-time. Following concepts were applied: Input validation, Conditional fields, DOM manipulation, Regex, Event Object, Event listeners, CSS basic effects, HTML elements.",
             "technologies": [
                 "JavaScript",
                 "HTML",
@@ -54,7 +54,7 @@
         {
             "id": 4,
             "project_name": "OOP Game-Show App",
-            "description": "My 4th project on the Full Stack JavaScript Techdegree: OOP Game Show App. A browser-based game, where JavaScript and OOP (Object-Oriented Programming) were used.",
+            "description": "The 4th project on the Full Stack JavaScript Techdegree. This web application is a browser-based game, where JavaScript and OOP (Object-Oriented Programming) were used. The player has a limited number of tries to guess a random phrase that is displayed on the screen. They can input their guesses via a virtual keyboard that is displayed on the screen or via the physical keyboard. Finally, the web application also provides a 'local multiplayer functionality', where one player inserts the sentence and the other tries to guess it. Following concepts were applied: Object-Oriented Programming, Classes, Event Object, Event listeners, DOM manipulation.",
             "technologies": [
                 "JavaScript",
                 "CSS",
@@ -71,7 +71,7 @@
         {
             "id": 5,
             "project_name": "Public API Requests",
-            "description": "My 5th project on the Full Stack JavaScript Techdegree: Public API Requests. This app makes AJAX requests to a public API and handles asynchronous data.",
+            "description": "The 5th project on the Full Stack JavaScript Techdegree. This application makes AJAX requests to a public API and handles asynchronous data. The application grabs information about 12 fictional employees as a JSON object from the API and builds an employee directory with it. The application displays the employees in a grid as well as in a detailed modal window with toggle buttons and is also equipped with a search functionality. Following concepts were applied: AJAX, Fetch API, Public APIs, JSON, Regex, DOM manipulation, Event listeners, CSS animations, HTML elements.",
             "technologies": [
                 "JavaScript",
                 "CSS",
