@@ -1,5 +1,5 @@
 # JavaScript: Static Node.js and Express Site
- The 6th project on the Full Stack JavaScript Techdegree. This application is a back-end (or server-side) Express server used to display a fictional portfolio site, which showcases the projects I had built so far in my JavaScript Techdegree. It definies multiple routes, renders the corresponding templates passing objects with dynamic data and handles 404 errors and global errors. I also took the oportunity in this project to practice my CSS skills and concepts like flexbox, background animations and hover animations.
+ The 6th project on the Full Stack JavaScript Techdegree. This application is a back-end (or server-side) Express server used to display a fictional portfolio site, which showcases the projects I had built so far in my JavaScript Techdegree. It definies multiple routes, renders the corresponding Pug templates passing objects with dynamic data and handles 404 errors and global errors. I also took the oportunity in this project to practice my CSS skills and concepts like flexbox, background animations and hover animations.
 
  Main technologies: JavaScript, Node.js, Express.js, CSS<br>
  Auxiliary technologies: HTML, Pug<br>
