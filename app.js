@@ -34,12 +34,6 @@ app.use('/project', projectRouter);
 
 /* Error handlers */
 
-// Avoiding the 404-error for missing a favicon.ico
-app.get('/favicon.ico', (req, res) => {
-    console.log("No favicon.ico available.");
-    res.status(204);
-});
-
 // Handling 404 errors
 app.use((req, res, next) => {
     const err = new Error("Page not found. The page you requested does not exist. Check details of the error on the screen. Click the link on the screen to return to the homepage.");
