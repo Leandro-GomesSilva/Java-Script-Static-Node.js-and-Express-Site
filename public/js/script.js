@@ -15,7 +15,7 @@ document.querySelector('#menu-icon').addEventListener('click', e => {
 
 /** 
  * Extra-code for exceeds
- * Dinamically creating Toogle Button to change between original and alternate designs
+ * Dinamically creating Toogle Button to change between original and alternative designs
  */
 
 // Selecting the relevant DOM elements
@@ -41,7 +41,7 @@ divHeader.appendChild(toogleButton);
 // Adding event listener
 toogleButton.addEventListener('click', (e) => toogleCSS(e));
 
-var toogle = 1;   // This variable controls if the alternate design is active of not (0 = "original design", 1 = "alternate design")
+var toogle = 1;   // This variable controls if the alternative design is active of not (0 = "original design", 1 = "alternative design")
 
 
 /***
@@ -58,18 +58,18 @@ function toogleCSS (e) {
 
     if (toogle === 0) {
       const head = document.querySelector('head');
-      const alternateCSS = document.createElement('link');
-      alternateCSS.id = 'alternateCSS';
-      alternateCSS.rel = 'stylesheet';
-      alternateCSS.href = '/static/css/alternateStyle.css';
-      head.appendChild(alternateCSS);
+      const alternativeCSS = document.createElement('link');
+      alternativeCSS.id = 'alternativeCSS';
+      alternativeCSS.rel = 'stylesheet';
+      alternativeCSS.href = '/static/css/alternativeStyle.css';
+      head.appendChild(alternativeCSS);
       toogleButton.textContent = "Switch to original design";
       toogle = 1;
 
     } else if (toogle === 1) {
       const head = document.querySelector('head');
-      const alternateCSS = document.getElementById('alternateCSS');
-      head.removeChild(alternateCSS);
+      const alternativeCSS = document.getElementById('alternativeCSS');
+      head.removeChild(alternativeCSS);
       toogleButton.textContent = "Switch to alternative design";
       toogle = 0;
     }
