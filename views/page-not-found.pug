@@ -3,11 +3,11 @@ extends layout.pug
 block content 
     h1 404 - Page not found
 
-    h3 The page you requested does not exist. Click the link below to return to the Home page.
+    p The page you requested does not exist. Click the link below to return to the Home page.
 
-    h2 
-        a(href='/') Home
+    h6 
+        a(href='/') HOME
 
-    h3 Error Stack:
+    h6 Error Stack:
     
     p #{err.stack}

@@ -43,7 +43,15 @@ toogleButton.addEventListener('click', (e) => toogleCSS(e));
 
 var toogle = 1;   // This variable controls if the alternate design is active of not (0 = "original design", 1 = "alternate design")
 
-// Function Toogle CSS
+
+/***
+ * function toogleCSS
+ * This function adds functionality to the toogle buttom. According the value of the variable 'toogle', it will add or remove the link to the CSS file corresponding the alternative design and change the text of the toogle button.
+ *
+ * @param {object} e - The event object
+ * @returns 
+ * 
+ */
 function toogleCSS (e) {
   
   if (e.target.tagName === 'BUTTON') {

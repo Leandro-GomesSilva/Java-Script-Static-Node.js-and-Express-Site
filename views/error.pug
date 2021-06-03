@@ -3,11 +3,11 @@ extends layout.pug
 block content 
     h1 #{err.status} - #{err.message}
 
-    h3 Click the link below to return to the Home page.
+    p Click the link below to return to the Home page.
 
-    h2 
-        a(href='/') Home
+    h6 
+        a(href='/') HOME
 
-    h3 Error Stack:
+    h6 Error Stack:
     
     p #{err.stack}

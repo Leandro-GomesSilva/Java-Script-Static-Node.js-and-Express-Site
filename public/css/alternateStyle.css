@@ -26,10 +26,11 @@ body * {
   font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
 }
 
-.portfolio-intro h1, .box h1 {
+h1, .portfolio-intro h1, .box h1 {
   color: #c4c1c1;
   font-size: 56px;
   line-height: 74px;
+  margin-top: 0px;
 }
 
 .box p {
@@ -38,7 +39,7 @@ body * {
   padding-top: 0;
 }
 
-.portfolio-intro p, .about-bio p {
+p, .portfolio-intro p, .about-bio p {
   font-size: 24px;
 }
 
@@ -51,7 +52,7 @@ article, .wrapper, .box {
   background: #ff000000;
 }
 
-.box h6 {
+.box h6, h6 {
   font-size: 28px;
   color: #c4c1c1
 }
@@ -162,8 +163,21 @@ article, .wrapper, .box {
 
 .btn-link {
   background-color: #4CAF50;
+  font-family: 'Merriweather', serif;
   font-size: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 10px;
+}
+
+h6 a {
+  color: #f3f3f3;
+  font-size: 24px;
+  transition: 0.2s ease-in-out;
+}
+
+h6 a:hover {
+  color: #4CAF50;
+  font-size: 26px;
+  transition: 0.2s ease-in-out;
 }
