@@ -1,10 +1,9 @@
 /*
-  Main styles for the alternate design. Only what is different then the original design must be declared.
+  Main styles for the alternate design. Only this that is different then the original design must be declared.
 */
 
 body {
   font-family: Garamond, Georgia, 'Times New Roman', Times, serif;
-  background: #000;
   background: linear-gradient(-45deg, #360033, #0b8793);
   background-size: 400%, 400%;
   position: relative;
@@ -28,7 +27,7 @@ body * {
 }
 
 .portfolio-intro h1, .box h1 {
-  color: #f3f3f3;
+  color: #c4c1c1;
   font-size: 56px;
   line-height: 74px;
 }
@@ -52,6 +51,25 @@ article, .wrapper, .box {
   background: #ff000000;
 }
 
+.box h6 {
+  font-size: 28px;
+  color: #c4c1c1
+}
+
+.box li {
+  font-size: 24px;
+  color: #f3f3f3
+}
+
+.project-info-box p {
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.project-img {
+  border: 3px solid rgba(0, 0, 0, 1);
+  border-radius: 20px;
+}
 
 /*
   Sidebar
@@ -61,8 +79,8 @@ article, .wrapper, .box {
   box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
   border-radius: 15px;
   background: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(15px);
 }
 

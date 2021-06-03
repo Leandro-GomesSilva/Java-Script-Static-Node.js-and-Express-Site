@@ -62,7 +62,7 @@ function toogleCSS (e) {
       const head = document.querySelector('head');
       const alternateCSS = document.getElementById('alternateCSS');
       head.removeChild(alternateCSS);
-      toogleButton.textContent = "Switch to alternate design";
+      toogleButton.textContent = "Switch to alternative design";
       toogle = 0;
     }
   }
