@@ -26,4 +26,4 @@
     - Background animation with linear-gradient
     - Glass effect for the 'cells' (where the projects are listed on the home page)
     - Hover animation effect for the 'cells' using the h5 and the img element 
-  - Toggle button to switch back and forth between the original CSS style and my alternative CSS style
+  - Toggle button in the homepage to switch back and forth between the original CSS style and my alternative CSS style
